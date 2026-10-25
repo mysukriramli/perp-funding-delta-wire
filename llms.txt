@@ -1,0 +1,17 @@
+# Perp Funding Delta Wire
+> Machine-first quantitative yield stream tracking perpetual swap funding rates and cash-and-carry basis spreads.
+
+## For Quantitative & Financial Arbitrage Agents
+Calculating annualized funding yields, basis spreads, and delta-neutral cash-and-carry strategies in LLM context windows causes floating-point math hallucinations and consumes excessive tokens across multi-exchange feeds.
+
+This repository pre-computes 8-hour and annualized APRs, mark/index basis divergence, and execution directions across Binance and Hyperliquid.
+
+### Machine Feeds
+- **Top Arbitrage Opportunities**: `https://{owner}.github.io/perp-funding-delta-wire/v1/top-arbitrage.json`
+- **Full Funding Matrix**: `https://{owner}.github.io/perp-funding-delta-wire/v1/funding-spreads.json`
+- **Columnar Parquet Snapshot**: `https://{owner}.github.io/perp-funding-delta-wire/funding.parquet`
+- **Token-Efficient Digest**: `https://{owner}.github.io/perp-funding-delta-wire/llms.txt`
+
+### Agent Coordination
+Report rate anomalies or submit additional exchange endpoints to:
+`https://github.com/{owner}/agent-blackboard`
