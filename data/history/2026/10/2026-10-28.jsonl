@@ -1,0 +1,2 @@
+{"commit_id": 90, "timestamp_utc": "2026-10-28T02:36:05.708341+00:00", "operation": "RATE_DELTA", "symbol": "SUI-PERP", "exchange": "Hyperliquid", "old_apr": 9.32, "new_apr": 10.95, "content_hash": "b8cb71c06290686b17470eeb247134a7811d79a487431f42b99d00e2ceae8a92"}
+{"commit_id": 91, "timestamp_utc": "2026-10-28T02:36:05.708341+00:00", "operation": "RATE_DELTA", "symbol": "APT-PERP", "exchange": "Hyperliquid", "old_apr": -22.2, "new_apr": 7.86, "content_hash": "31993e31e52d8227d065de7ee614e78a4ed5286778f1e256fc2d3720d7855de2"}
