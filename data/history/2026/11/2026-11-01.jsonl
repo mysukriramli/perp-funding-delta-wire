@@ -1,0 +1,2 @@
+{"commit_id": 160, "timestamp_utc": "2026-11-01T00:10:12.837290+00:00", "operation": "RATE_DELTA", "symbol": "BNB-PERP", "exchange": "Hyperliquid", "old_apr": -25.75, "new_apr": 10.95, "content_hash": "66de8168163e827f29121fda12bfc281742ae5704134e950878ae0a3b9b9b7ce"}
+{"commit_id": 161, "timestamp_utc": "2026-11-01T00:10:12.837290+00:00", "operation": "RATE_DELTA", "symbol": "SOL-PERP", "exchange": "Hyperliquid", "old_apr": 10.95, "new_apr": 8.81, "content_hash": "11585f9a6b7bdb633cf9bc28c2ffb0501855d5098dfc21bf2215c9b54e7773c3"}
