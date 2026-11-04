@@ -1,2 +1,3 @@
+# Keep concurrent appends from both branches for historical ledgers
 *.jsonl merge=union
-data/**/*.jsonl merge=union
+data/history/**/*.jsonl merge=union
