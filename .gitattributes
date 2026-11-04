@@ -1,0 +1,2 @@
+*.jsonl merge=union
+data/**/*.jsonl merge=union
