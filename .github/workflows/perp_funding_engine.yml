@@ -103,10 +103,14 @@ jobs:
         run: |
           mkdir -p public
           touch public/.nojekyll
+          # Guarantee at least one visible file so tar does not skip the directory
+          if [ -z "$(ls -A public | grep -v '^\.')" ]; then
+            echo "Perp Funding Delta Engine - Active ($(date -u))" > public/index.html
+          fi
           ls -la public
 
       - name: Upload Artifacts to Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: 'public'
 
